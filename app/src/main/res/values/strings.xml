@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SpotyHub</string>
+
+    <string name="button_login">Login</string>
+    <string name="text_login">Login 2</string>
+    <string name="button_get_similar">Get similar</string>
+    <string name="button_add_similar_to_playlist">Add to "Similar" playlist</string>
+</resources>

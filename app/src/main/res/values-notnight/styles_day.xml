@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    <style name="Widget.SpotyHub.CardView.v1.DayNight"-->
+<!--        parent="Widget.SpotyHub.CardView.v1">-->
+<!--    </style>-->
+
+<!--    <style name="Widget.SpotyHub.Button.v1.DayNight"-->
+<!--        parent="Widget.SpotyHub.Button.v1">-->
+<!--        <item name="backgroundTint">?attr/colorPrimary</item>-->
+<!--    </style>-->
+
+<!--    <style name="Widget.SpotyHub.Button.v1.OutlinedButton.DayNight"-->
+<!--        parent="Widget.SpotyHub.Button.v1.OutlinedButton">-->
+<!--    </style>-->
+
+<!--    <style name="Widget.SpotyHub.Button.v1.TextButton.DayNight"-->
+<!--        parent="Widget.SpotyHub.Button.v1.TextButton">-->
+<!--    </style>-->
+
+</resources>

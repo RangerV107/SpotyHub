@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout.SpotyHub.Main.v1"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:padding="0dp"
+
+    tools:context=".views.MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout_act_main_current_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/appTopPadding"
+        android:paddingBottom="50dp"
+        android:paddingHorizontal="@dimen/appHorizontalPadding"
+        android:background="@drawable/card_background_v2">
+
+        <ImageView
+            android:id="@+id/image_act_main_cover"
+            android:layout_width="149dp"
+            android:layout_height="149dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView style="@style/TextAppearance.SpotyHub.Headline5"
+                android:id="@+id/text_act_main_track_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="name" />
+
+            <TextView style="@style/TextAppearance.SpotyHub.Subtitle2"
+                android:id="@+id/text_act_main_track_artist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                tools:text="artist" />
+            <Button
+                android:id="@+id/button_act_main_get_similar"
+                style="@style/Widget.SpotyHub.Button.v1.TextButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:text="@string/button_get_similar" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="20dp">
+
+        <androidx.cardview.widget.CardView
+            style="@style/Widget.SpotyHub.CardView.v1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+
+        <Button
+            android:id="@+id/button_act_main_to_act_test"
+            style="@style/Widget.SpotyHub.Button.v1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To test" />
+
+        <androidx.cardview.widget.CardView
+            style="@style/Widget.SpotyHub.CardView.v1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+
+        <androidx.cardview.widget.CardView
+            style="@style/Widget.SpotyHub.CardView.v1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

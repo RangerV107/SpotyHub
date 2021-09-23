@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Maket -->
+    <dimen name="appBottomMargin">10dp</dimen>
+    <dimen name="appLayoutMargin">10dp</dimen>
+
+    <dimen name="appTopPadding">50dp</dimen>
+    <dimen name="appBottomPadding">0dp</dimen>
+    <dimen name="appHorizontalPadding">10dp</dimen>
+
+    <dimen name="cardsElevation">0dp</dimen>
+</resources>

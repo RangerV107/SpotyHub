@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Layouts -->
+    <style name="Layout.SpotyHub.Main.v1"
+        parent="">
+        <item name="android:paddingTop">@dimen/appTopPadding</item>
+        <item name="android:paddingBottom">@dimen/appBottomPadding</item>
+        <item name="android:paddingLeft">@dimen/appHorizontalPadding</item>
+        <item name="android:paddingRight">@dimen/appHorizontalPadding</item>
+
+        <item name="android:clipChildren">false</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+
+    <!-- Cards -->
+    <style name="Widget.SpotyHub.CardView.v1"
+        parent="Widget.MaterialComponents.CardView">
+        <item name="android:layout_marginBottom">@dimen/appBottomMargin</item>
+
+        <item name="cardCornerRadius">?attr/appCornerRadius</item>
+        <item name="cardBackgroundColor">?attr/colorCard</item>
+        <!--<item name="contentPadding">10dp</item>-->
+        <item name="cardElevation">@dimen/cardsElevation</item>
+
+        <item name="android:clipChildren">false</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+
+    <!-- Buttons -->
+    <style name="Widget.SpotyHub.Button.v1"
+        parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_marginBottom">@dimen/appBottomMargin</item>
+
+        <item name="cornerRadius">?attr/appCornerRadius</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textAppearance">
+            @style/TextAppearance.SpotyHub.Button
+        </item>
+<!--        <item name="android:backgroundTint">@color/transparent</item>-->
+<!--        <item name="android:background">@drawable/card_background_v1</item>-->
+    </style>
+
+    <style name="Widget.SpotyHub.Button.v1.OutlinedButton"
+        parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:layout_marginBottom">@dimen/appBottomMargin</item>
+
+        <item name="cornerRadius">?attr/appCornerRadius</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textAppearance">
+            @style/TextAppearance.SpotyHub.Button
+        </item>
+        <item name="strokeWidth">2dp</item>
+
+        <item name="materialThemeOverlay">
+            @style/ThemeOverlay.SpotyHub.OutlinedButton.v1
+        </item>
+    </style>
+
+    <style name="Widget.SpotyHub.Button.v1.TextButton"
+        parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:layout_marginBottom">@dimen/appBottomMargin</item>
+
+        <item name="cornerRadius">?attr/appCornerRadius</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textAppearance">
+            @style/TextAppearance.SpotyHub.Button
+        </item>
+<!--        <item name="android:textColor">@color/text_color_primary</item>-->
+    </style>
+
+
+</resources>

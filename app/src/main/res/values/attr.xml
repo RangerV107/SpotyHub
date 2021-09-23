@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorCard" format="color"/>
+    <attr name="appCornerRadius" format="dimension"/>
+    <attr name="alphaDisabled" format="float"/>
+    <attr name="alphaPrimaryContent" format="float"/>
+    <attr name="alphaSecondaryContent" format="float"/>
+    <attr name="colorText" format="color"/>
+
+</resources>

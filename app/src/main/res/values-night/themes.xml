@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SpotyHub" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- https://material.io/blog/android-material-theme-color -->
+
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/green_500</item>
+        <item name="colorPrimaryVariant">@color/green_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/green_500</item>
+        <item name="colorSecondaryVariant">@color/green_700</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Surface color -->
+        <item name="colorSurface">@color/black_10</item>
+        <item name="colorOnSurface">@color/white_245</item>
+        <!-- Background color -->
+        <item name="android:windowBackground">@color/black_17</item>
+        <item name="colorOnBackground">@color/white</item>
+        <!-- Error color -->
+        <item name="colorError">#C80014</item>
+        <item name="colorOnError">@color/black</item>
+        <!-- Status bar color -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+        <!--<item name="android:statusBarColor">@color/transparent</item>-->
+        <item name="android:navigationBarColor">@color/transparent</item>
+
+        <!-- Card color -->
+        <item name="colorCard">@color/black_20</item>
+        <item name="appCornerRadius">10dp</item>
+        <!-- Text color -->
+        <item name="colorText">@color/white_230</item>
+        <item name="alphaDisabled">0.2</item>
+        <item name="alphaPrimaryContent">0.9</item>
+        <item name="alphaSecondaryContent">0.5</item>
+
+
+
+
+        <!-- Styles -->
+        <!--<item name="cardViewStyle">@style/Widget.SpotyHub.CardView.v1</item>-->
+        <!--<item name="materialButtonStyle">@style/Widget.SpotyHub.Button.v1</item>-->
+
+    </style>
+
+    <style name="ThemeOverlay.SpotyHub.OutlinedButton.v1" parent="">
+        <item name="colorOnSurface">?attr/colorPrimary</item>
+    </style>
+
+</resources>
